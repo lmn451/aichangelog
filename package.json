@@ -1,0 +1,21 @@
+{
+  "name": "aichangelog",
+  "version": "1.0.0",
+  "description": "",
+  "publisher": "lmn451",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmn451/aichangelog"
+  },
+  "main": "changeLog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create:changelogs": "node --env-file=.env createChangelogs.js"
+  },
+  "author": "lmn451",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.27.0",
+    "semver": "^7.6.0"
+  }
+}
