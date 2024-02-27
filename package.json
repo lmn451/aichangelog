@@ -11,7 +11,7 @@
   "main": "changeLog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create:changelogs": "node --env-file=.env createChangelogs.mjs"
+    "create:changelogs": "node --env-file=.env createChangelog.js"
   },
   "author": "lmn451",
   "license": "ISC",
